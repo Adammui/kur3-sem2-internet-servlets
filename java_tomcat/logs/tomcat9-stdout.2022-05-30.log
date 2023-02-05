@@ -1,0 +1,377 @@
+
+2022-05-30 14:36:37 Apache Commons Daemon procrun stdout initialized.
+old CBean
+old CBean
+old CBean
+old CBean
+new CBean
+new CBean
+old CBean
+old CBean
+
+2022-05-30 16:13:40 Apache Commons Daemon procrun stdout initialized.
+old CBean
+new CBean
+new CBean
+old CBean
+Context initialized
+F1:init
+F2:init
+F3:init
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1, value1!=1
+F1, value1!=1
+F1:doFilter
+F2, value2!=2
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+F1, value1!=1
+Attribute removed
+F1:doFilter
+F2, value2!=2
+F1:doFilter
+F2, value2!=2
+F1, value1!=1
+F1, value1!=1
+F1, value1!=1
+F1:doFilter
+F2, value2!=2
+F1:destroy
+F2:destroy
+F3:destroy
+Context destroyed
+Context initialized
+F1:init
+F2:init
+F3:init
+F1:doFilter
+F2, value2!=2
+F1:doFilter
+F2:doFilter
+F3:doFilter
+3
+3
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+3
+3
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+F1:doFilter
+F2, value2!=2
+F1, value1!=1
+Attribute removed
+F1, value1!=1
+F1:doFilter
+F2:doFilter
+F1:doFilter
+F2, value2!=2
+F1, value1!=1
+F1, value1!=1
+F1, value1!=1
+F1:doFilter
+F2:doFilter
+F1:doFilter
+F2:doFilter
+F1:doFilter
+F2:doFilter
+F1, value1!=1
+F1, value1!=1
+F1, value1!=1
+F1, value1!=1
+F1, value1!=1
+F1, value1!=1
+F1, value1!=1
+F1, value1!=1
+F1:doFilter
+F2, value2!=2
+F1:doFilter
+F2, value2!=2
+F1:doFilter
+F2:doFilter
+F1:doFilter
+F2:doFilter
+F3:doFilter
+2
+6
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1, value1!=1
+F1:doFilter
+F2, value2!=2
+F1:doFilter
+F2:doFilter
+F3:doFilter
+2
+3
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+F1, value1!=1
+Attribute removed
+F1, value1!=1
+F1, value1!=1
+F1:doFilter
+F2, value2!=2
+F1:doFilter
+F2:doFilter
+F3:doFilter
+3
+3
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1, value1!=1
+F1:doFilter
+F2, value2!=2
+F1:doFilter
+F2:doFilter
+F3:doFilter
+2
+3
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+F1:doFilter
+F2:doFilter
+F1, value1!=1
+F1, value1!=1
+F1:doFilter
+F2:doFilter
+F1:doFilter
+F2:doFilter
+F3:doFilter
+3
+1
+3
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1, value1!=1
+F1:doFilter
+F2:doFilter
+F3:doFilter
+2
+1
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1:destroy
+F2:destroy
+F3:destroy
+Context destroyed
+Context initialized
+F1:init
+F2:init
+F3:init
+F1:doFilter
+F2, value2!=2
+F1, value1!=1
+F1:doFilter
+F2:doFilter
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+F1, value1!=1
+F1:doFilter
+F2:doFilter
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute removed
+Attribute added
+Attribute replaced
+F1, value1!=1
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F2:doFilter
+F2, value2!=2
+F2:doFilter
+F2:doFilter
+F2:doFilter
+F2, value2!=2
+F2, value2!=2
+F2:doFilter
+F2:doFilter
+F2, value2!=2
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+F2:doFilter
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+F1:doFilter
+F2, value2!=2
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute replaced
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute replaced
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute replaced
+F1:doFilter
+F2:doFilter
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute removed
+Attribute added
+Attribute replaced
+F2:doFilter
+F2:doFilter
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute replaced
+F1, value1!=1
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute replaced
+F2:doFilter
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+F1:destroy
+F2:destroy
+F3:destroy
+Attribute removed
+Context destroyed

@@ -1,0 +1,78 @@
+<project name="lab14" default = "copy" >
+
+    <target name="init">
+     <echo message="Building Lab14 Project" />
+        <property name="server"
+                  value="E:\tools\java_tomcat\"/>
+        <property name="work"
+                  value="E:\tools\32awrew\Internet_Smelov\labs\lab14\"/>
+    </target>
+
+    <target name="compile" depends ="init">
+
+ <delete verbose ="true">
+ <fileset dir="${work}build"/>
+ </delete>
+
+ <javac 
+ target="8"
+ includeantruntime="false"
+ srcdir = "${work}src"
+ destdir = "${work}build">
+ <classpath>
+    <fileset file= "${server}lib\servlet-api.jar" />     
+    <fileset file="${server}lib\tomcat-el-api-10.0.2.jar" />
+    <fileset file="${server}lib\tomcat-jsp-api-10.0.2.jar" />
+    <fileset dir="${work}WEB-INF\lib\" />
+   
+
+    </classpath>
+ </javac>
+    
+<!--
+ <javac 
+ target="8"
+ includeantruntime="false"
+ srcdir = "${work}src"
+ destdir = "${work}build">
+    <classpath>
+        <fileset dir="${work}WEB-INF\lib" />
+    </classpath>
+ </javac>
+-->
+ </target>
+
+    <target name="create" depends ="compile">
+     <delete dir= "${server}webapps\lab14\" />
+     <mkdir dir= "${server}webapps\lab14\" />
+     <mkdir dir= "${server}webapps\lab14\WEB-INF" />
+     <mkdir dir= "${server}webapps\lab14\WEB-INF\classes" />
+     <mkdir dir= "${server}webapps\lab14\WEB-INF\lib" />
+     <mkdir dir= "${server}webapps\lab14\jsp" />
+     <mkdir dir= "${server}webapps\lab14\files" />
+    </target>
+    
+    <target name="copy" depends ="create">
+     <copy todir= "${server}webapps\lab14\WEB-INF\">
+       <fileset dir="${work}WEB-INF" />
+     </copy>
+
+    <copy todir="${server}webapps\lab14\jsp">
+    <fileset dir="${work}jsp" />
+    </copy>
+    
+    <copy todir="${server}webapps\lab14\files">
+    <fileset dir="${work}files" />
+    </copy>
+    
+
+   <copy todir="${server}webapps\lab14\WEB-INF\classes">
+    <fileset dir="${work}build" />
+    </copy>
+
+   <copy file="${work}index.jsp" todir="${server}webapps\Lab14"/>
+
+    </target>
+    
+    
+    </project>

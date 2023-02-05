@@ -1,0 +1,232 @@
+
+2022-06-09 09:33:11 Apache Commons Daemon procrun stderr initialized.
+09-Jun-2022 09:33:13.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.60
+09-Jun-2022 09:33:13.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 9 2022 14:52:25 UTC
+09-Jun-2022 09:33:13.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.60.0
+09-Jun-2022 09:33:13.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jun-2022 09:33:13.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+09-Jun-2022 09:33:13.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+09-Jun-2022 09:33:13.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.2
+09-Jun-2022 09:33:13.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.2+8-LTS-86
+09-Jun-2022 09:33:13.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jun-2022 09:33:13.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\tools\java_tomcat
+09-Jun-2022 09:33:13.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\tools\java_tomcat
+09-Jun-2022 09:33:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\tools\java_tomcat
+09-Jun-2022 09:33:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\tools\java_tomcat
+09-Jun-2022 09:33:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\tools\java_tomcat\temp
+09-Jun-2022 09:33:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jun-2022 09:33:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\tools\java_tomcat\conf\logging.properties
+09-Jun-2022 09:33:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jun-2022 09:33:13.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jun-2022 09:33:13.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jun-2022 09:33:13.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+09-Jun-2022 09:33:13.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+09-Jun-2022 09:33:13.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+09-Jun-2022 09:33:13.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+09-Jun-2022 09:33:13.988 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\tools\java_tomcat\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\tools\tera-scr\к тере\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;E:\tools\flutter\bin\;E:\tools\java_ant\bin\;E:\tools\node\;E:\tools\flutter\bin;C:\Program Files\dotnet\;E:\tools\32awrew\Безопасность\emsdk\emsdk_env.bat;C:\WINDOWS\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+09-Jun-2022 09:33:14.295 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jun-2022 09:33:14.324 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [699] milliseconds
+09-Jun-2022 09:33:14.384 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jun-2022 09:33:14.384 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.60]
+09-Jun-2022 09:33:14.505 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\tools\java_tomcat\webapps\InP_Lab3.war]
+09-Jun-2022 09:33:16.146 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:16.346 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\tools\java_tomcat\webapps\InP_Lab3.war] has finished in [1 838] ms
+09-Jun-2022 09:33:16.491 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\tools\java_tomcat\webapps\Lab4.war]
+09-Jun-2022 09:33:16.649 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:16.651 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\tools\java_tomcat\webapps\Lab4.war] has finished in [161] ms
+09-Jun-2022 09:33:16.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\ANaive]
+09-Jun-2022 09:33:16.851 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:16.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\ANaive] has finished in [200] ms
+09-Jun-2022 09:33:16.853 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\docs]
+09-Jun-2022 09:33:16.944 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:16.946 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\docs] has finished in [93] ms
+09-Jun-2022 09:33:16.947 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab10]
+09-Jun-2022 09:33:17.415 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:17.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab10] has finished in [470] ms
+09-Jun-2022 09:33:17.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab11]
+09-Jun-2022 09:33:17.832 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:17.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab11] has finished in [394] ms
+09-Jun-2022 09:33:17.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab12]
+09-Jun-2022 09:33:18.146 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:18.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab12] has finished in [314] ms
+09-Jun-2022 09:33:18.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab13]
+09-Jun-2022 09:33:18.453 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:18.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab13] has finished in [306] ms
+09-Jun-2022 09:33:18.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\Lab14]
+09-Jun-2022 09:33:20.202 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:20.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\Lab14] has finished in [1 749] ms
+09-Jun-2022 09:33:20.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\Lab5]
+09-Jun-2022 09:33:21.333 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:21.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\Lab5] has finished in [1 131] ms
+09-Jun-2022 09:33:21.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab6]
+09-Jun-2022 09:33:21.678 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:21.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab6] has finished in [344] ms
+09-Jun-2022 09:33:21.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab7]
+09-Jun-2022 09:33:21.881 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:21.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab7] has finished in [190] ms
+09-Jun-2022 09:33:21.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab8]
+09-Jun-2022 09:33:22.235 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:22.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab8] has finished in [354] ms
+09-Jun-2022 09:33:22.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab9]
+09-Jun-2022 09:33:22.472 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:22.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab9] has finished in [237] ms
+09-Jun-2022 09:33:22.494 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\manager]
+09-Jun-2022 09:33:22.676 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:22.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\manager] has finished in [191] ms
+09-Jun-2022 09:33:22.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\ROOT]
+09-Jun-2022 09:33:22.788 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:33:22.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\ROOT] has finished in [106] ms
+09-Jun-2022 09:33:22.817 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jun-2022 09:33:22.886 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8560] milliseconds
+09-Jun-2022 09:35:12.985 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 09:35:12.985 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 09:35:14.799 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:35:14.802 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 09:36:04.879 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 09:36:04.879 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 09:36:06.594 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:36:06.597 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-Jun-2022 09:38:46.798 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [E:\tools\java_tomcat\webapps\lab14]
+09-Jun-2022 09:38:47.601 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:38:47.604 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\tools\java_tomcat\webapps\lab14] has finished in [807] ms
+09-Jun-2022 09:38:57.614 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 09:38:57.614 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 09:38:59.294 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:38:59.298 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 09:38:59.299 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 09:38:59.299 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 09:39:00.029 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:39:00.030 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+09-Jun-2022 09:40:20.660 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 09:40:20.660 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 09:40:22.278 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:40:22.281 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 09:40:22.281 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 09:40:22.282 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 09:40:22.994 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:40:22.995 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+09-Jun-2022 09:41:23.080 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 09:41:23.080 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 09:41:24.056 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:41:24.058 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 09:41:24.059 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 09:41:24.059 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 09:41:24.809 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:41:24.812 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+09-Jun-2022 09:41:54.853 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 09:41:54.853 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 09:41:55.534 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:41:55.536 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 09:41:55.537 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 09:41:55.537 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 09:41:56.264 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:41:56.266 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+09-Jun-2022 09:49:46.925 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 09:49:46.925 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 09:49:48.790 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:49:48.792 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 09:49:48.793 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 09:49:48.793 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 09:49:49.541 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:49:49.544 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-Jun-2022 09:54:19.887 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 09:54:19.887 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 09:54:21.663 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:54:21.666 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 09:54:21.666 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 09:54:21.666 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 09:54:22.469 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 09:54:22.471 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-Jun-2022 10:20:14.428 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 10:20:14.428 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 10:20:16.172 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:20:16.175 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 10:20:16.176 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 10:20:16.176 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 10:20:16.991 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:20:16.992 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+09-Jun-2022 10:21:17.049 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 10:21:17.049 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 10:21:17.863 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:21:17.866 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 10:21:17.867 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 10:21:17.867 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-Jun-2022 10:21:18.753 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:21:18.755 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+09-Jun-2022 10:32:49.643 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 10:32:49.643 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 10:32:50.437 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:32:50.440 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 10:32:50.441 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 10:32:50.441 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 10:32:51.286 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:32:51.289 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+09-Jun-2022 10:40:51.880 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 10:40:51.880 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 10:40:52.794 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:40:52.797 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 10:40:52.798 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 10:40:52.798 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 10:40:53.575 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:40:53.577 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-Jun-2022 10:43:53.820 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 10:43:53.820 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 10:43:54.562 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:43:54.565 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 10:43:54.566 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 10:43:54.566 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 10:43:55.367 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:43:55.369 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-Jun-2022 10:45:15.461 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 10:45:15.461 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 10:45:16.194 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:45:16.197 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 10:45:16.198 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 10:45:16.198 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 10:45:17.051 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:45:17.053 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-Jun-2022 10:47:07.190 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 10:47:07.191 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 10:47:07.948 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:47:07.951 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 10:47:07.952 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 10:47:07.952 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 10:47:08.811 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:47:08.813 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+09-Jun-2022 10:48:48.952 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Lab14]
+09-Jun-2022 10:48:48.952 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] has started
+09-Jun-2022 10:48:48.952 INFO [Catalina-utility-2] org.apache.catalina.core.StandardWrapper.unload Ожидание для [1] экземпляра(ов) которые нужно освободить для сервлета [jsp]
+09-Jun-2022 10:48:50.203 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:48:50.206 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Lab14] is completed
+09-Jun-2022 10:48:50.207 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab14]
+09-Jun-2022 10:48:50.207 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] has started
+09-Jun-2022 10:48:51.004 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2022 10:48:51.006 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab14] is completed
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-Jun-2022 16:20:07.375 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jun-2022 16:20:07.395 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jun-2022 16:20:10.101 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jun-2022 16:20:10.121 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

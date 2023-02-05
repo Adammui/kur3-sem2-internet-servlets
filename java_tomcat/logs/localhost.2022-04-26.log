@@ -1,0 +1,276 @@
+26-Apr-2022 06:54:46.888 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Ggg:init
+26-Apr-2022 06:54:46.893 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 06:54:46.894 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:19:03.055 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Sss:init
+26-Apr-2022 10:19:03.056 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+26-Apr-2022 10:19:03.056 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:19:05.852 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+26-Apr-2022 10:19:05.853 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:19:05.867 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:19:05.867 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:19:05.870 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 10:19:09.004 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:19:09.004 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:19:11.973 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:19:11.974 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:19:11.979 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:19:11.980 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:19:11.980 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 10:19:15.158 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+26-Apr-2022 10:19:15.158 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:19:20.999 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:19:21.000 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:19:21.013 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+26-Apr-2022 10:19:21.013 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:19:34.517 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:19:34.517 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:19:34.518 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+26-Apr-2022 10:19:34.518 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:19:45.689 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:19:45.689 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:19:45.690 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+26-Apr-2022 10:19:45.690 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:20:02.954 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+26-Apr-2022 10:20:02.955 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:20:02.967 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:20:02.967 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:20:02.968 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 10:20:55.300 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+26-Apr-2022 10:20:55.300 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:21:13.108 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+26-Apr-2022 10:21:13.108 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:21:13.113 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:21:13.113 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:21:13.114 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 10:23:52.713 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:23:52.713 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:23:52.715 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+26-Apr-2022 10:23:52.716 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:23:58.499 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:23:58.500 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:23:58.504 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:23:58.504 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:23:58.504 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 10:25:14.390 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+26-Apr-2022 10:25:14.392 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Ggg:destroy
+26-Apr-2022 10:27:20.890 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Ggg:init
+26-Apr-2022 10:27:20.896 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:27:20.897 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:27:35.546 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:init
+26-Apr-2022 10:27:35.546 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:27:35.546 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:27:35.552 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:27:35.552 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:27:35.553 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 10:27:44.615 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:27:44.615 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:27:47.253 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+26-Apr-2022 10:27:47.253 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Sss:service
+26-Apr-2022 10:27:47.258 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:27:47.259 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:27:47.259 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 10:27:52.205 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+26-Apr-2022 10:27:52.205 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Ggg:service
+26-Apr-2022 10:27:52.205 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 22:48:19.967 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+26-Apr-2022 22:48:19.967 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log Ggg:destroy

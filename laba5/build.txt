@@ -1,0 +1,44 @@
+<project name = "internet_app5" default = "copy">
+
+    <target name = "init">
+        <echo message = "Building internet_app5 Project" />
+
+        <property name = "server" value = "D:\Apache Software Foundation\Tomcat 9.0\" />
+        <property name = "work" value = "D:\uni\internet_app\internet_5\" />
+        <property name = "app_name" value = "internet_app5" />
+	<property name = "lib" value = "D:\Apache Software Foundation\Tomcat 9.0\lib\" />
+    </target>
+
+
+    <target name = "compile" depends = "init">
+        <delete verbose = "true">
+            <fileset dir = "${work}build" />
+        </delete>
+
+        <javac srcdir = "${work}\src"
+               destdir = "${work}\web\WEB-INF\classes">
+            <classpath>
+                <fileset file="${lib}servlet-api.jar" />
+                <fileset file="${lib}commons-httpclient-3.1.jar" />
+                <fileset file="${lib}commons-logging-1.2.jar" />
+                <fileset file="${lib}gson-2.8.0.jar" />
+                <fileset file="${lib}jsp-api.jar" />
+            </classpath>
+        </javac>
+
+    </target>
+
+    <target name="create" depends="compile">
+        <delete dir = "${server}webapps\${app_name}\" />
+        <mkdir dir = "${server}webapps\${app_name}\" />
+        <mkdir dir = "${server}webapps\${app_name}\WEB-INF" />
+    </target>
+
+    <target name = "copy" depends = "create">
+
+        <copy todir = "${server}webapps\${app_name}\">
+            <fileset dir = "${work}\web\" />
+        </copy>
+
+    </target>
+</project>

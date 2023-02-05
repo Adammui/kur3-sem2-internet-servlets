@@ -1,0 +1,24 @@
+
+2022-03-22 09:15:45 Apache Commons Daemon procrun stdout initialized.
+Sss:constructor
+Sss:init
+Sss:service:GET
+Ggg:doGet:page=27s
+Ggg:doGet:name=Vlad
+Sss:destroy
+Sss:constructor
+Sss:init
+Sss: service: GET
+Sss: service: GET
+Sss: service: GET
+Sss:destroy
+Sss:constructor
+Sss:init
+Sss: service: POST
+Sss: service: GET
+Sss:destroy
+Sss:constructor
+Sss:init
+Sss: service: POST
+Sss: service: GET
+Sss:destroy

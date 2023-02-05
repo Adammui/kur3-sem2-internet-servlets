@@ -1,0 +1,159 @@
+
+2022-06-05 20:50:56 Apache Commons Daemon procrun stdout initialized.
+Context initialized
+F1:init
+F2:init
+F3:init
+DBConnection:init
+Driver is registered!
+DBConnection2:init
+Driver is registered!
+You are connected
+DBConnection3:init
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection3:destroy
+DBConnection2:destroy
+DBConnection2:init
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+DBConnection:init
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection2:destroy
+DBConnection:init
+Driver is registered!
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection:init
+No suitable driver found for jdbc:postgresql://localhost/postgres
+Connected to the PostgreSQL server successfully.
+DBConnection:destroy
+DBConnection:init
+Driver is registered!
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection:init
+No suitable driver found for jdbc:postgresql://localhost/postgres
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection:init
+No suitable driver found for jdbc:postgresql://localhost/postgres
+Driver is registered!
+You are connected
+Connected to the PostgreSQL server successfully.
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection:init
+No suitable driver found for jdbc:postgresql://localhost/postgres
+Driver is registered!
+You are connected
+Connected to the PostgreSQL server successfully.
+Driver is registered!
+You are connected
+Connected to the PostgreSQL server successfully.
+Driver is registered!
+You are connected
+Connected to the PostgreSQL server successfully.
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection:init
+No suitable driver found for jdbc:postgresql://localhost/postgres
+Driver is registered!
+You are connected
+Connected to the PostgreSQL server successfully.
+Driver is registered!
+You are connected
+Connected to the PostgreSQL server successfully.
+Driver is registered!
+You are connected
+Connected to the PostgreSQL server successfully.
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection:init
+No suitable driver found for jdbc:postgresql://localhost/postgres
+DBConnection:destroy
+DBConnection:init
+No suitable driver found for jdbc:postgresql://localhost/postgres
+Connected to the PostgreSQL server successfully.
+Connected to the PostgreSQL server successfully.
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection2:init
+Driver is registered!
+You are connected
+Driver is registered!
+You are connected
+DBConnection:destroy
+DBConnection2:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection:destroy
+DBConnection:init
+DBConnection3:init
+Driver is registered!
+You are connected
+DBConnection3:destroy
+DBConnection:destroy
+SssJson: For input string: ""
+SssXml: Hello
+SssXml: after Random
+SssJson: [-1,0,0,-1,-1,-1,-1,-1,-1]
+SssXml: Hello
+SssJson: [7,2,9,-3,-6]
+SssXml: Hello
+SssXml: after Random
+SssXml: Hello
+SssXml: after Random
+SssJson: [-1,-1,1,-10,-4,9]
+F1:destroy
+F2:destroy
+F3:destroy
+Context destroyed

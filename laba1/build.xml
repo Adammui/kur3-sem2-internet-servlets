@@ -1,0 +1,35 @@
+<project name="lab1" default = "copy" >
+    <target name="init">
+        <echo message="Building Project" />
+        <property name = "server"
+                  value = "E:\tools\java\" />
+        <property name = "work"
+                  value = "E:\tools\32awrew\Прогр в интернет Смелов\lab1\" />
+    </target>
+
+    <target name="compile" depends ="init">
+        <delete verbose ="true">
+            <fileset dir="${work}"/>
+        </delete>
+        <javac srcdir = "${work}src"
+               destdir = "${work}"
+               classpath = "${server}\lib\servlet-api.jar"
+               includeantruntime="false"/>
+    </target>
+    <target name="create" depends ="compile">
+        <delete dir= "${server}webapps\as_2\" />
+        <mkdir dir= "${server}webapps\as_2\" />
+        <mkdir dir= "${server}webapps\as_2\WEB-INF" />
+    </target>
+
+    <target name="copy" depends ="create">
+
+        <copy file= "${work}WEB-INF\web.xml"
+              todir="${server}webapps\as_2\WEB-INF\" />
+        <copy file= "${work}html\index.html"
+              todir="${server}webapps\as_2\" />
+        <copy todir="${server}webapps\as_2\WEB-INF\classes">
+            <fileset dir="${work}build"/>
+        </copy>
+    </target>
+</project>

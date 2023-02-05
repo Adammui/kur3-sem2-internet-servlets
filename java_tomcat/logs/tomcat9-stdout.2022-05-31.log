@@ -1,0 +1,49 @@
+
+2022-05-31 09:54:16 Apache Commons Daemon procrun stdout initialized.
+Context initialized
+F1:init
+F2:init
+F3:init
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F2:doFilter
+F2:doFilter
+F2:doFilter
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute removed
+Attribute added
+Attribute replaced
+Attribute removed
+F1:doFilter
+F2:doFilter
+F3:doFilter
+1
+2
+3
+Attribute added
+Attribute replaced
+Attribute removed
+new CBean
+new CBean
+old CBean
+old CBean
+old CBean
+F1:destroy
+F2:destroy
+F3:destroy
+Context destroyed

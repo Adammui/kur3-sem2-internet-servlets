@@ -1,0 +1,10 @@
+скачивайте 9 томкат
+и вроде 16 или 17 джаву чтобы эти лабы работали
+
+тут много теории полезной есть
+https://javastudy.ru/interview/jee-jsp-questions-answers/
+https://jsehelper.blogspot.com/2016/05/jsp-servlets-jstl-3.html
+
+
+книжка смелова если сами не ожете найти
+https://elib.belstu.by/bitstream/123456789/2690/1/smelov-osnovy-programmirovaniya-na-java.pdf

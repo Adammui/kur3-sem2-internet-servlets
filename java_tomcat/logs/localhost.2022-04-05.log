@@ -1,0 +1,906 @@
+05-Apr-2022 08:05:51.931 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 08:05:51.932 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:05:51.932 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:05:52.036 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Ggg:init
+05-Apr-2022 08:05:52.036 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+05-Apr-2022 08:05:52.036 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:06:21.171 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:06:21.171 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:06:21.173 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+05-Apr-2022 08:06:21.173 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:07:25.218 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:07:25.218 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:07:25.221 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+05-Apr-2022 08:07:25.221 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:10:12.115 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 08:10:12.116 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Ggg:destroy
+05-Apr-2022 08:10:16.981 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 08:10:16.981 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:10:16.981 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:11:40.369 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:11:40.370 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:11:41.069 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.net.ConnectException: Connection timed out: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:361)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+		at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+		at Sss.service(Sss.java:107)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:11:44.781 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:11:44.781 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:11:44.798 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Ggg:init
+05-Apr-2022 08:11:44.798 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+05-Apr-2022 08:11:44.798 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:11:44.799 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:65)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:11:48.111 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:11:48.111 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:12:52.852 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:12:52.852 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:13:12.138 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.net.ConnectException: Connection timed out: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:361)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+		at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+		at Sss.service(Sss.java:107)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:13:28.427 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:13:28.428 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:13:50.338 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+05-Apr-2022 08:13:50.338 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:13:50.339 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+05-Apr-2022 08:13:50.339 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:13:50.347 SEVERE [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [Ggg] threw exception
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:65)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at Sss.service(Sss.java:66)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:13:50.347 SEVERE [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:65)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at Sss.service(Sss.java:66)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:14:13.522 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:14:13.523 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:14:16.880 SEVERE [http-nio-8080-exec-12] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.net.ConnectException: Connection timed out: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:361)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+		at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+		at Sss.service(Sss.java:107)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:14:21.803 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+05-Apr-2022 08:14:21.803 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:14:21.803 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+05-Apr-2022 08:14:21.804 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:14:21.805 SEVERE [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [Ggg] threw exception
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:65)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at Sss.service(Sss.java:66)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:14:21.805 SEVERE [http-nio-8080-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:65)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at Sss.service(Sss.java:66)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:14:52.452 SEVERE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.net.ConnectException: Connection timed out: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:361)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+		at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+		at Sss.service(Sss.java:107)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:23:14.248 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:23:14.248 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:24:00.830 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+05-Apr-2022 08:24:00.830 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:24:00.832 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+05-Apr-2022 08:24:00.832 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:24:00.832 SEVERE [http-nio-8080-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:42)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:24:16.210 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+05-Apr-2022 08:24:16.210 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:24:20.349 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:24:20.349 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:24:36.987 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:24:36.988 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:24:38.269 SEVERE [http-nio-8080-exec-18] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.net.ConnectException: Connection timed out: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:361)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+		at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+		at Sss.service(Sss.java:107)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:24:51.008 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:24:51.009 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:25:03.956 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 08:25:03.956 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log Ggg:destroy
+05-Apr-2022 08:25:55.142 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 08:25:55.143 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:25:55.143 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:26:47.230 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:26:47.230 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:26:47.233 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Ggg:init
+05-Apr-2022 08:26:47.233 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+05-Apr-2022 08:26:47.233 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:26:47.233 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:42)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:26:53.408 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+05-Apr-2022 08:26:53.408 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:26:53.414 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Ggg:doPost
+05-Apr-2022 08:26:53.414 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:26:53.420 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [Ggg] threw exception
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:65)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at Sss.service(Sss.java:66)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:26:53.420 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:65)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at Sss.service(Sss.java:66)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:26:59.906 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:26:59.906 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:26:59.910 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+05-Apr-2022 08:26:59.910 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:26:59.910 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:42)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:27:04.923 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:27:04.923 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:27:04.938 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+05-Apr-2022 08:27:04.938 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:27:04.939 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:65)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:27:07.151 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Sss:doPost
+05-Apr-2022 08:27:07.151 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:27:07.154 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+05-Apr-2022 08:27:07.154 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:27:07.154 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:42)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:27:08.892 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:27:08.892 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:27:15.723 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:27:15.723 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:27:15.728 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+05-Apr-2022 08:27:15.728 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 08:27:15.728 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "_click" is null
+		at Ggg.service(Ggg.java:42)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:27:19.245 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.net.ConnectException: Connection timed out: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:361)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+		at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+		at Sss.service(Sss.java:107)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:28:43.715 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:28:43.715 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:30:07.738 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Sss] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.net.ConnectException: Connection timed out: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:361)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+		at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+		at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+		at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+		at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+		at Sss.service(Sss.java:107)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 08:37:33.258 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:37:33.258 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:37:37.989 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 08:37:37.990 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Ggg:destroy
+05-Apr-2022 08:39:57.967 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 08:39:57.967 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:39:57.967 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:40:00.575 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 08:41:12.941 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 08:41:12.941 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:41:12.941 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:41:20.756 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:41:20.757 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:41:39.350 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:41:39.350 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:42:06.039 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:42:06.039 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:42:11.030 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 08:42:43.489 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 08:42:43.489 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:42:43.490 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:42:52.154 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:42:52.154 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:45:36.319 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:45:36.319 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:45:41.468 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 08:47:08.872 INFO [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 08:47:08.872 INFO [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:47:08.872 INFO [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 08:47:16.568 INFO [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 08:47:16.568 INFO [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:00:42.897 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:00:42.898 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:02:05.088 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:02:05.088 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:34:25.093 INFO [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:34:25.093 INFO [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:48:47.442 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:48:47.442 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:49:52.073 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 09:50:21.244 INFO [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 09:50:21.244 INFO [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:50:21.244 INFO [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:51:40.747 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:51:40.747 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:51:42.624 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 09:52:06.759 INFO [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 09:52:06.759 INFO [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:52:06.759 INFO [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:52:20.336 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:52:20.336 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:52:32.292 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:52:32.292 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:52:53.057 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 09:53:34.939 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 09:53:34.939 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:53:34.939 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:57:03.492 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 09:58:14.472 INFO [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 09:58:14.473 INFO [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:58:14.473 INFO [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 09:58:21.521 INFO [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 09:58:21.521 INFO [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:00:23.928 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 10:03:39.641 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 10:03:39.642 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:03:39.642 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:03:51.586 INFO [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:03:51.586 INFO [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:06:04.852 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 10:06:36.657 INFO [http-nio-8080-exec-92] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 10:06:36.657 INFO [http-nio-8080-exec-92] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:06:36.657 INFO [http-nio-8080-exec-92] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:11:24.115 INFO [http-nio-8080-exec-99] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:11:24.115 INFO [http-nio-8080-exec-99] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:11:33.205 INFO [http-nio-8080-exec-96] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:11:33.205 INFO [http-nio-8080-exec-96] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:11:33.242 INFO [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Ggg:init
+05-Apr-2022 10:11:33.242 INFO [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Ggg:doGet
+05-Apr-2022 10:11:33.242 INFO [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Ggg:service
+05-Apr-2022 10:11:33.243 SEVERE [http-nio-8080-exec-100] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() для сервлета [Ggg] в контексте с путем [/InP_Lab3] выбросил исключение
+	java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "param" is null
+		at Ggg.service(Ggg.java:69)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+05-Apr-2022 10:11:41.058 INFO [http-nio-8080-exec-97] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:11:41.059 INFO [http-nio-8080-exec-97] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:11:51.843 INFO [http-nio-8080-exec-101] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:11:51.843 INFO [http-nio-8080-exec-101] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:12:55.321 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Sss:destroy
+05-Apr-2022 10:12:55.321 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Ggg:destroy
+05-Apr-2022 10:15:41.254 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Sss:init
+05-Apr-2022 10:15:41.254 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:15:41.254 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 10:21:31.570 INFO [http-nio-8080-exec-109] org.apache.catalina.core.ApplicationContext.log Sss:doGet
+05-Apr-2022 10:21:31.570 INFO [http-nio-8080-exec-109] org.apache.catalina.core.ApplicationContext.log Sss:service
+05-Apr-2022 12:24:27.365 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log Sss:destroy

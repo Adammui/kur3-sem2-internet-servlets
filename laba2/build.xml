@@ -1,0 +1,51 @@
+<project name="ANaive" default = "copy" >
+    <target name="init">
+        <echo message="Build ANaive Project" />
+        <property name = "server"
+                  value = "E:\tools\java_tomcat\" />
+        <property name = "work"
+                  value = "E:\tools\32awrew\Internet_Smelov\laba2\" />
+        <property name = "remote"
+                  value = "\\DESKTOP-4VAUGQJ\a\java\" />
+    </target>
+    <target name="compile" depends ="init">
+        <delete verbose ="true">
+            <fileset dir="${work}build"/>
+        </delete>
+        <javac srcdir = "${work}src"
+               destdir = "${work}build"
+               classpath = "${server}lib\servlet-api.jar"/>
+    </target>
+    <target name="create" depends ="compile">
+        <delete dir= "${server}webapps\ANaive\" />
+        <mkdir dir= "${server}webapps\ANaive\" />
+        <mkdir dir= "${server}webapps\ANaive\WEB-INF" />
+
+
+        <delete dir= "${remote}webapps\ANaive\" />
+        <mkdir dir= "${remote}webapps\ANaive\" />
+        <mkdir dir= "${remote}webapps\ANaive\WEB-INF" />
+    </target>
+
+    <target name="copy" depends ="create">
+            <copy file= "${work}WEB-INF\web.xml"
+                  todir="${server}webapps\ANaive\WEB-INF\" />
+            <copy todir="${server}webapps\ANaive\">
+                <fileset dir="${work}html" />
+            </copy>
+            <copy todir="${server}webapps\ANaive\WEB-INF\classes">
+                <fileset dir="${work}build"/>
+            </copy>
+
+
+
+        <copy file= "${work}WEB-INF\web.xml"
+              todir="${remote}webapps\ANaive\WEB-INF\" />
+        <copy todir="${remote}webapps\ANaive\">
+            <fileset dir="${work}html" />
+        </copy>
+        <copy todir="${remote}webapps\ANaive\WEB-INF\classes">
+            <fileset dir="${work}build"/>
+        </copy>
+    </target>
+</project>

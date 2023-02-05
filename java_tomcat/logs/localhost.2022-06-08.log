@@ -1,0 +1,1 @@
+08-Jun-2022 07:18:31.649 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/index.jsp] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
